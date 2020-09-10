@@ -43,4 +43,11 @@ function draw() {
     text("mouseX" +" , " + "mouseY", 10,10) ; // print mouse locations to canvas
 
   }
+
+}
+
+
+function mousePressed() {
+
+console.log(mouseX + ","+ mouseY);
 }
