@@ -62,6 +62,7 @@ function draw() {
     case 2:
     textSize(50);
       fill('white');
+      textAlign(CENTER); 
       text("IIGHT IMMA HEAD OUT", 250, 250);
       break;
   }
