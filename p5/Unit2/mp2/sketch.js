@@ -62,7 +62,7 @@ function draw() {
     case 2:
     textSize(50);
       fill('white');
-      text("ALRIGHT I'M GONE", 250, 250);
+      text("IIGHT IMMA HEAD OUT", 250, 250);
       break;
   }
 
