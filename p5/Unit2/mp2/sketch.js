@@ -6,7 +6,7 @@ let myState = 0;
 
 function setup() {
   createCanvas(800, 800);
-
+  textAlign(CENTER);
   img = loadImage("assests/creepycat.jpg");
 
   mic = new p5.AudioIn();
@@ -21,19 +21,19 @@ function draw() {
 
   switch (myState) {
     case 0:
-    textSize(50);
+    textSize(30);
       fill('white');
-      text("Hello, this is Creepy Cat! Click to get started", 250, 250);
+      text("Hello, this is Creepy Cat! Click to get started", width/2, height/2);
       cat();
       break;
 
 
     case 1:
-    textSize(50);
+    textSize(30);
       fill('white');
 
 
-      text("I'M MOVING", 250, 250);
+      text("I'M MOVING", width/2, height/2);
 
 
       if (vol > .001) { // if the volume is LOUD?
@@ -60,10 +60,9 @@ function draw() {
       break;
 
     case 2:
-    textSize(50);
+    textSize(30);
       fill('white');
-      textAlign(CENTER); 
-      text("IIGHT IMMA HEAD OUT", 250, 250);
+      text("IIGHT IMMA HEAD OUT", width/2, height/2);
       break;
   }
 
