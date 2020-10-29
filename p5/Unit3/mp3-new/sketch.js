@@ -25,7 +25,7 @@ function setup() {
     cars.push(new Car());
   }
 
-
+song1.play();
 
 }
 
@@ -40,7 +40,7 @@ function draw() {
 
     case 1:
       game();
-      song1.play();
+      
       timer++
       if (timer > 10 * 60) {
         state = 3;
