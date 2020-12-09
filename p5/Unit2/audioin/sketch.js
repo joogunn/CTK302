@@ -1,6 +1,6 @@
 var mic;
 var vol;
-var c = 'green' ;
+var c = 'green';
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
