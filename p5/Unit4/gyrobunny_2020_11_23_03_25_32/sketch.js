@@ -61,7 +61,7 @@ function draw() {
   noStroke();
   textSize(300);
   textAlign(CENTER);
-  text("I'm watching you!", 50,50);
+  text("watching you", width / 2, height / 2);
 
 }
 
