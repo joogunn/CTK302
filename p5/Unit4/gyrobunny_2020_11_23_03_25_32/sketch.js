@@ -21,13 +21,13 @@ function setup() {
 
 function draw() {
 
-  background('white'); // light blue
+  background('blue'); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
   xPosition = map(gamma, -60, 60, 0, width);
-  yPosition = map(beta, -30, 30, 0, height);
+  yPosition = map(beta, -30, 90, 0, height);
 
   push(); // before you use translate, rotate, or scale commands, push and then pop after
 
@@ -61,7 +61,7 @@ function draw() {
   noStroke();
   textSize(300);
   textAlign(CENTER);
-  text("watching you", width / 2, height / 2);
+  text("hai", width / 2, height / 2);
 
 }
 
