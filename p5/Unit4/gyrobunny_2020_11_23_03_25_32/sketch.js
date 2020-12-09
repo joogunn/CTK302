@@ -14,11 +14,11 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
 
-  bunnyImage = loadImage("assets/owl.jpg");
+  bunnyImage = loadImage("assets/owlt.png");
   imageMode(CENTER);
   rectMode(CENTER);
 
-forestbg = loadImage("assets/forest.png");
+forestbg = loadImage("assets/forest2.jpg");
 }
 
 function draw() {
