@@ -6,6 +6,7 @@ let x = 0.0, y = 0.0, z = 0.0 ; // accelerometer variables
 let bunnyImage;
 let xPosition = 0;
 let yPosition = 0;
+let forestbg; 
 
 
 
@@ -17,12 +18,13 @@ function setup() {
   imageMode(CENTER);
   rectMode(CENTER);
 
+forestbg = loadImage("assets/forest.png");
 }
 
 function draw() {
 
-  background('blue'); // light blue
-
+  //background('blue'); // light blue
+image(forestbg, width/2, height/2, width, height);
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
@@ -52,9 +54,9 @@ function draw() {
   textSize(20);
   text("acceleration data:", 25, 125);
   textSize(15);
-  text("x = " + x.toFixed(2), 25, 150); // .toFixed means just show (x) decimal places
-  text("y = " + y.toFixed(2), 25, 170);
-  text("z = " + z.toFixed(4), 25, 190);
+//  text("x = " + x.toFixed(2), 25, 150); // .toFixed means just show (x) decimal places
+//  text("y = " + y.toFixed(2), 25, 170);
+//  text("z = " + z.toFixed(4), 25, 190);
 
   // Text that makes CTK type in the background
   fill('white');
