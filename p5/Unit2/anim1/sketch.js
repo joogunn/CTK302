@@ -8,7 +8,7 @@ function draw() {
   background(100);
 
   textSize(20);
-  text("BLACKLIVESMATTER" x, 250);
+  text("BLACKLIVESMATTER", x, 250);
   x = x + 5;
 
 
