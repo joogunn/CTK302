@@ -6,7 +6,7 @@ let x = 0.0, y = 0.0, z = 0.0 ; // accelerometer variables
 let bunnyImage;
 let xPosition = 0;
 let yPosition = 0;
-let forestbg; 
+let forestbg;
 
 
 
